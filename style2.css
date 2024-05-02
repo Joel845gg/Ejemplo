@@ -1,0 +1,50 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ddd;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+td label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+td textarea {
+    width: 75%;
+    padding: 8px;
+    resize: vertical;
+}
+
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.formulario{
+    width: 100%;
+  border-collapse: collapse;
+}
+.container {
+    display: flex;
+    background-color: cornsilk;
+}
+
+.datos{
+    width: 995px;
+    height: 1207px;
+}

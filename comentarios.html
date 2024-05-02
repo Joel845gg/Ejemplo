@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="index.html"><img src="iconos/pagina-de-inicio.png" width="22"> Inicio</a>
+            <a href="galeria.html"><img src="iconos/galeria-de-fotos.png" width="22"> Galeria</a>
+            <a href="contactos.html"><img src="iconos/atencion-al-cliente.png" width="22"> Contactos</a>
+            <a href="comentarios.html"><img src="iconos/comentarios.png" width="22"> Comentarios</a>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main">
+                <fieldset class="datos">
+                    <br><br><br><br><br><br><br><br><br>
+                    <table border="2" class="formulario">
+                        <tr>
+                            <td colspan="2" class="negrita">Ingrese sus datos:</td>
+                        </tr>
+                        <tr>
+                            <td><label for="nombre">Nombre:</label></td>
+                            <td><input type="text" id="nombre" name="nombre" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="apellido">Apellido:</label></td>
+                            <td><input type="text" id="apellido" name="apellido" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="correo">Correo Electrónico:</label></td>
+                            <td><input type="email" id="correo" name="correo" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="telefono">Teléfono:</label></td>
+                            <td><input type="tel" id="telefono" name="telefono"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="direccion">Dirección:</label></td>
+                            <td><textarea id="direccion" name="direccion" rows="4" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fecha_nacimiento">Fecha de Nacimiento:</label></td>
+                            <td><input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required></td>
+                        </tr>
+                        <tr>
+                            <td><label>Género:</label></td>
+                            <td>
+                                <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                                <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+                                <label><input type="radio" name="genero" value="otro"> Otro</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="comentarios">Comentarios:</label></td>
+                            <td><textarea id="comentarios" name="comentarios" rows="10" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"><input type="submit" value="Enviar"></td>
+                        </tr>
+                    </table>
+                    
+                </fieldset>
+            </div>
+            <fieldset>
+                <img src="imagenes/_dba3e0e2-b197-4a73-8e3b-818ce9f6b79a.jpeg" width="200px">
+
+                <p class="negrita">Ofrecemos</p>
+                <p class="negrita">Celulares</p>
+                <li>Apple</li>
+                <li>Samsung</li>
+                <li>Xiaomi</li>
+                <li>Sony</li>
+                <li>OnePlus</li>
+                <li>Huawei</li>
+                <li>Oppo</li>
+                <img src="imagenes/marcas.jpg" width="200px">
+                <p class="negrita">Accesorios</p>
+                <li>Fundas y Estuches</li>
+                <li>Protectores de Pantalla</li>
+                <li>Cargadores</li>
+                <li>Audifonos</li>
+                <li>Adaptadores</li>
+                <li>Baterias</li>
+                <li>Kid de Limpieza</li>
+                <img src="imagenes/accesorios.png" width="200px">
+            </fieldset>
+        </div>
+    </main>
+</body>
+<footer>
+    <p>&copy; 2024 Tu Tienda de Celulares. Todos los derechos reservados.</p>
+</footer>
+
+</html>
